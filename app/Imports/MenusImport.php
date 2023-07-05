@@ -15,14 +15,14 @@ class MenusImport implements ToModel
     public function model(array $row)
     {
         return new Menu([
-            'name' => $row[0],
-            'original_price'=> $row[1],
-            'unit'=> $row[2],
-            'desc'=> $row[3],
-            'is_published'=> $row[4],
-            'user_id'=> $row[5],
-            'branch_id'=> $row[6],
-            'menu_category_id' => $row[7],
+            'name' => $row[1],
+            'original_price'=> $row[2],
+            'unit'=> $row[3],
+            'desc'=> $row[4],
+            'is_published'=> $row[5],
+            'user_id'=> $row[6],
+            'branch_id'=> $row[7],
+            'menu_category_id' => $row[8],
         ]);
 
     }
